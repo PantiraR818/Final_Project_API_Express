@@ -122,7 +122,7 @@ exports.login = async (req, res) => {
         } else {
             res.status(400).json({
                 type: "Not Found",
-                msg: "Wrong Login Detaisdwsddddwls"
+                msg: "Wrong Login Detais"
             })
         }
     } catch (err) {
