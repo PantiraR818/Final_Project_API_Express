@@ -20,7 +20,6 @@ const productSchema = new Schema({
     category :{
         name : String
     },
-    
     traderRequest :[ {
         requester : {
         requestName: String,
